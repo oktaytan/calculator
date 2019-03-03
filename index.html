@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <h1 class="heading">calculator</h1>
+  <div class="calculator">
+    <div class="calculator__container">
+      <div class="calculator__screen"><span id="result"></span></div>
+      <div class="calculator__buttons">
+        <div class="open" id="openBtn">
+          <span class="label on">ON</span>
+          <span class="label off">OFF</span>
+        </div>
+        <button type="button" class="btn operator" id="clear">CE</button>
+        <button type="button" class="btn operator" id="backspace"><img src="./img/backspace-cl.svg"></button>
+        <button type="button" class="btn operator" data-num="/"><img src="./img/divide-cl.svg"></button>
+        <button type="button" class="btn" data-num="7">7</button>
+        <button type="button" class="btn" data-num="8">8</button>
+        <button type="button" class="btn" data-num="9">9</button>
+        <button type="button" class="btn operator" data-num="*"><img src="./img/times-cl.svg"></button>
+        <button type="button" class="btn" data-num="4">4</button>
+        <button type="button" class="btn" data-num="5">5</button>
+        <button type="button" class="btn" data-num="6">6</button>
+        <button type="button" class="btn operator" data-num="-"><img src="./img/minus-cl.svg"></button>
+        <button type="button" class="btn" data-num="1">1</button>
+        <button type="button" class="btn" data-num="2">2</button>
+        <button type="button" class="btn" data-num="3">3</button>
+        <button type="button" class="btn operator" data-num="+"><img src="./img/sum-cl.svg"></button>
+        <button type="button" class="btn operator" id="negative"><img src="./img/negative-cl.svg"></button>
+        <button type="button" class="btn" data-num="0">0</button>
+        <button type="button" class="btn operator" data-num="."><img src="./img/dot-cl.svg"></button>
+        <button type="button" class="btn operator" id="equal"><img src="./img/equal-cl.svg"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
